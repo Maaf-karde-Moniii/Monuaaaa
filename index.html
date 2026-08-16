@@ -161,7 +161,7 @@ button:active{transform:translateY(3px);box-shadow:0 1px #dc8198}
 </div>
 <div class="nav"><button onclick="prev()">←</button><div class="dots" id="dots"></div><button onclick="next()">→</button></div>
 <script>
-const YOUR_WHATSAPP_NUMBER="919630945551";
+const YOUR_WHATSAPP_NUMBER="918766785519";
 const slides=[...document.querySelectorAll(".slide")],dots=document.getElementById("dots");let n=0;
 slides.forEach((_,i)=>{let d=document.createElement("i");d.className="dot"+(i===0?" active":"");dots.appendChild(d)});
 function show(x){n=Math.max(0,Math.min(slides.length-1,x));slides.forEach((s,i)=>s.classList.toggle("active",i===n));[...dots.children].forEach((d,i)=>d.classList.toggle("active",i===n))}
