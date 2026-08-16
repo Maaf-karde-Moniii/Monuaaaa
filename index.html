@@ -107,7 +107,7 @@ button:active{transform:translateY(3px);box-shadow:0 1px #dc8198}
 
 <section class="slide"><div class="page">
 <div class="flower top small"><svg viewBox="0 0 100 100"><g><ellipse class="petal" cx="50" cy="20" rx="14" ry="25"/><ellipse class="petal" cx="80" cy="38" rx="14" ry="25" transform="rotate(72 80 38)"/><ellipse class="petal" cx="68" cy="73" rx="14" ry="25" transform="rotate(144 68 73)"/><ellipse class="petal" cx="32" cy="73" rx="14" ry="25" transform="rotate(216 32 73)"/><ellipse class="petal" cx="20" cy="38" rx="14" ry="25" transform="rotate(288 20 38)"/><circle class="center" cx="50" cy="50" r="15"/></g></svg></div>
-<div class="photo-wrap single"><img class="photo" src="photo7.jpg" alt="Monuaaa"></div>
+<div class="photo-wrap single"><img class="photo" src="photo1.jpg" alt="Monuaaa"></div>
 <p class="script" style="font-size:29px">I know I messed up<br>and you're probably super angry with me... 🥺</p>
 <button onclick="next()">Continue</button></div></section>
 
@@ -146,7 +146,7 @@ button:active{transform:translateY(3px);box-shadow:0 1px #dc8198}
 
 <section class="slide"><div class="page">
 <div class="flower top small"><svg viewBox="0 0 100 100"><ellipse class="petal" cx="50" cy="20" rx="14" ry="25"/><ellipse class="petal" cx="80" cy="38" rx="14" ry="25" transform="rotate(72 80 38)"/><ellipse class="petal" cx="68" cy="73" rx="14" ry="25" transform="rotate(144 68 73)"/><ellipse class="petal" cx="32" cy="73" rx="14" ry="25" transform="rotate(216 32 73)"/><ellipse class="petal" cx="20" cy="38" rx="14" ry="25" transform="rotate(288 20 38)"/><circle class="center" cx="50" cy="50" r="15"/></svg></div>
-<div class="photo-wrap" style="width:min(350px,88vw);height:480px;transform:rotate(-3deg)"><img class="photo" src="photo1.jpg"></div>
+<div class="photo-wrap" style="width:min(350px,88vw);height:480px;transform:rotate(-3deg)"><img class="photo" src="photo7.jpg"></div>
 <div class="flower bottom small"><svg viewBox="0 0 100 100"><ellipse class="petal2" cx="50" cy="20" rx="14" ry="25"/><ellipse class="petal2" cx="80" cy="38" rx="14" ry="25" transform="rotate(72 80 38)"/><ellipse class="petal2" cx="68" cy="73" rx="14" ry="25" transform="rotate(144 68 73)"/><ellipse class="petal2" cx="32" cy="73" rx="14" ry="25" transform="rotate(216 32 73)"/><ellipse class="petal2" cx="20" cy="38" rx="14" ry="25" transform="rotate(288 20 38)"/><circle class="center" cx="50" cy="50" r="15"/></svg></div>
 <button onclick="next()">Continue</button></div></section>
 
@@ -161,7 +161,7 @@ button:active{transform:translateY(3px);box-shadow:0 1px #dc8198}
 </div>
 <div class="nav"><button onclick="prev()">←</button><div class="dots" id="dots"></div><button onclick="next()">→</button></div>
 <script>
-const YOUR_WHATSAPP_NUMBER="PUT_YOUR_NUMBER_HERE";
+const YOUR_WHATSAPP_NUMBER="919630945551";
 const slides=[...document.querySelectorAll(".slide")],dots=document.getElementById("dots");let n=0;
 slides.forEach((_,i)=>{let d=document.createElement("i");d.className="dot"+(i===0?" active":"");dots.appendChild(d)});
 function show(x){n=Math.max(0,Math.min(slides.length-1,x));slides.forEach((s,i)=>s.classList.toggle("active",i===n));[...dots.children].forEach((d,i)=>d.classList.toggle("active",i===n))}
